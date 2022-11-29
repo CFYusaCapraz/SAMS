@@ -48,7 +48,12 @@ section.left-side {
   text-transform: capitalize;
   text-align: center;
   font-size: 46px;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color)) no-repeat;
+  background: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--secondary-color)
+    )
+    no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -68,7 +73,12 @@ section.left-side {
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color)) no-repeat;
+  background: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--secondary-color)
+    )
+    no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -87,7 +97,12 @@ section.left-side {
   line-height: 28px;
   padding: 10px 0 10px 0;
   margin-bottom: 30px;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color)) no-repeat;
+  background: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--secondary-color)
+    )
+    no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -162,6 +177,13 @@ section.left-side {
   opacity: 0.9;
   outline: none;
   box-shadow: 0 0 1.5em 0 var(--primary-color);
+}
+
+p.error {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 @media (max-width: 780px) {

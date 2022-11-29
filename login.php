@@ -41,6 +41,12 @@
                     <i class="fas fa-lock"></i>
                 </div>
                 <input type="submit" class="btn-login" name="login" value="Login"></input>
+                <p class="error"><?php
+                    if (isset($_SESSION['error'])){
+                        echo "Wrong username or password";
+                        unset($_SESSION['error']);
+                    }
+                ?></p>
             </form>
         </div>
     </section>

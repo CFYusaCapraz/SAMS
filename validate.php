@@ -23,6 +23,7 @@
                 header('location: login.php');
                 mysqli_close($conn);
             }
+            mysqli_free_result($result);
         }
     } else header('location: login.php');
     mysqli_close($conn);
