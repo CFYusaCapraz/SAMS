@@ -15,6 +15,7 @@
             $row = mysqli_fetch_array($result);
             if (isset($row['user_id'])) {
                 $_SESSION['user_id'] = $row['user_id'];
+                $_SESSION['role_id'] = $row['role_id'];
                 header('location: index.php');
                 mysqli_close($conn);
             }
