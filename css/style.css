@@ -11,7 +11,9 @@
   color: white;
 }
 
-body {
+/*Login page CSS settings*/
+
+body.login {
   min-height: 100vh;
   width: 100%;
   display: grid;
@@ -186,6 +188,61 @@ p.error {
   font-size: 24px;
 }
 
+/*Login page CSS settings*/
+
+/*Index page CSS settings*/
+
+body.index {
+  min-height: 100vh;
+  width: 100%;
+  color: black;
+}
+
+nav.navbar {
+  width: 100%;
+  margin: 0 15px 0 15px;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+}
+
+nav.navbar ul.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.nav li.nav-item {
+  list-style: none;
+  margin: 12px;
+  font-size: 2em;
+}
+
+li.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+nav.navbar .logout {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 2em;
+  margin: 0 15px 0 0;
+}
+
+nav.navbar .logout a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+nav.navbar .logout a i{
+  padding-right: 8px;
+  color: black;
+}
+
+/*Index page CSS settings*/
 @media (max-width: 780px) {
   body {
     display: flex;
