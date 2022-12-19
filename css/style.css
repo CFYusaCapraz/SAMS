@@ -244,13 +244,13 @@ nav.navbar .logout a i{
 
 /*Index page CSS settings*/
 @media (max-width: 780px) {
-  body {
+  body.login {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  section.left-side {
+  body.login section.left-side {
     display: none;
   }
 }
